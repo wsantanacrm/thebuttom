@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/bs/widgets" xmlns:gap="http://phonegap.com/bs/1.0" version="1.0.0" id="org.jedicrm.thebuttom">
+	<name>The Buttom</name>
+	<description> 
+		Veja quanto tempo você consegue segurar o botão
+	</description>
+	<author href="http://www.jedicrm.com.br" email="wsantana@jedicrm.com.br">Willi Santana
+	</author>
+	<icon src="icon.png" />
+	<gap:splash src="splash.png" />
+	<preference name="orientation" value="portrait" />
+</widget>

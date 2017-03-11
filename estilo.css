@@ -4,7 +4,8 @@
 }
 
 .fundo {
-background-image: url("imagens/line.jpg");
+	background-image: url("imagens/line.jpg");
+	background-color: #000;
 
 }
 #contenedor{
@@ -34,6 +35,7 @@ h1 {
 	color: #FFF;
 	width: 25%;
 	font-weight: bolder;
+	text-align: center;
 }
 .boton{
 	outline: none;
