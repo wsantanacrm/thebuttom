@@ -4,6 +4,7 @@ var segundos = 0;
 var minutos = 0;
 var horas = 0;
 $(document).on("pagecreate","#pageone1",function(){
+
   $("img").on("taphold",function(){
 
 /*evento parar**/
@@ -12,7 +13,16 @@ $(document).on("pagecreate","#pageone1",function(){
   	//function inicio();
     //$(this).hide();
 //starta a função
+	centesimas = 0;
+	segundos = 0;
+	minutos = 0;
+	horas = 0;
+	Centesimas.innerHTML = "00";
+	Segundos.innerHTML = "00";
+	Minutos.innerHTML = "00";
+	Horas.innerHTML = "00";
 control = setInterval(cronometro,10);
+
 function cronometro () {
 	if (centesimas < 99) {
 		centesimas++;
@@ -51,6 +61,7 @@ function cronometro () {
   }); 
    $("img").on("vmouseout",function(){
 	clearInterval(control);
+
  });
 
 });
