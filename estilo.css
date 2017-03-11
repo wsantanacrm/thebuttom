@@ -61,4 +61,6 @@ h1 {
 	z-index: 1;
 	text-align: center;
 }
-
+ui-loader ui-corner-all ui-body-a ui-loader-default {
+	display: none;
+}
